@@ -1,3 +1,9 @@
+> **Deprecated.** The retrieval + routing layer is now part of
+> [`@lvy-jsd/dsh-tool-manager`](https://github.com/lvy-jsd/dsh-tool-manager)
+> (the `tools_find` / `tools_route` / `skills_find` / `skills_route` tools in the
+> core package, version 0.4.0 and up). Install the core package instead of this
+> one. This repository is kept for history only and will no longer be updated.
+
 # dsh-tool-router
 
 Retrieval and routing over an unbounded DSH catalog of tools and skills.
