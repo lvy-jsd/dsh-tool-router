@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-tool-router
+      name: '@lvy-jsd/dsh-tool-router'
+      config: {}

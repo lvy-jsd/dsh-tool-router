@@ -1,0 +1,11 @@
+{
+  "name": "@lvy-jsd/dsh-tool-router",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "lvy-jsd",
+  "type": "module",
+  "description": "Retrieval and routing over an unbounded DSH tool catalog: find tools by intent and load them in one step.",
+  "exports": { ".": "./index.js" },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "sidecar/bin/*"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

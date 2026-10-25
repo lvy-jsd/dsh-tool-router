@@ -1,0 +1,7 @@
+node_modules/
+# Rust build output; the npm package ships a copy under sidecar/bin/
+sidecar/target/
+sidecar/bin/
+# runtime artifacts
+.sidecar.sock
+*.log
